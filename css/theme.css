@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #acc3c3;
+  --color-secondary: #f0ddd3;
+  --color-accent: #d59d84;
+  --color-purple: #767d91;
+  --font-primary: "proxima-nova", sans-serif;
+  --font-secondary: "proxima-nova-condensed", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
