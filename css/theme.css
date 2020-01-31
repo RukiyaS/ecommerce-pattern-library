@@ -3,10 +3,45 @@
   --color-secondary: #f0ddd3;
   --color-accent: #d59d84;
   --color-purple: #767d91;
+  --color-white: #fff;
+  --color-black: #000;
   --font-primary: "proxima-nova", sans-serif;
   --font-secondary: "proxima-nova-condensed", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-primary);
+  font-weight: bold;
+  color: var(--color-black);
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+h3 {
+  font-family: var(--font-primary);
+  color: var(--color-purple);
+  font-weight: 500;
+}
+
+h4 {
+  font-family: var(--font-primary);
+  color: var(--color-white);
+}
+
+h5 {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+h6 {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
 }
