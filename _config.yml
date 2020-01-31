@@ -6,12 +6,19 @@ patternbot:
   description: |
   Skinful is an all natural, skincare company that offers a wide range of skin care products for all ages and skin types
   font_url: "https://use.typekit.net/oll8jzi.css"
+  colors:
+    background: "--color-secondary: #f0ddd3;"
+    accent: "--color-primary-dark: #767d91;"
   rationales:
     typefaces.primary: |
       Proxima Nova was selection because it is a clean, simple sans-serif that perfectly matches the company's aesthetic.
     typefaces.secondary: |
       Proxima Nova condensed is used for button, a tags and list text.
     colors.primary: |
-      The primary colour is a pale blue-green that represents the softnish of minimalism of the comany. Represents water and hydration which is important for healthy skin.
+      The primary colours is a pale blue-green that represents the softnish of minimalism of the comany. Represents water and hydration which is important for healthy skin.
     colors.secondary: |
-      The colours are more warm and neutral to balance the cool colours and give the website a friendly feel.
+      These colours are more warm and neutral to balance the cool colours and give the website a friendly feel.
+    colors.white: |
+      White is used on a coloured background. For example, text on an image banner, card, etc.
+    colors.black: |
+     Black is used for regular body text.
