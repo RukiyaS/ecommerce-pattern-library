@@ -60,6 +60,8 @@ ul {
   color: var(--color-purple);
   font-style: normal;
   font-weight: normal;
+  list-style: none;
+  text-decoration: none;
 }
 
 ol{
@@ -67,6 +69,8 @@ ol{
   color: var(--color-accent);
   font-style: normal;
   font-weight: normal;
+  list-style: none;
+  text-decoration: none;
 }
 
 dl {
@@ -74,6 +78,8 @@ dl {
   color: var(--color-accent);
   font-style: normal;
   font-weight: normal;
+  list-style: none;
+  text-decoration: none;
 }
 
 a {
@@ -81,11 +87,13 @@ a {
   color: var(--color-black);
   font-style: normal;
   font-weight: 500;
+  list-style: none;
+  text-decoration: none;
 }
 
-blockquote {
+blockquote, q {
   font-family: var(--font-primary);
-  color: var(--color-secondary);
+  color: var(--color-accent);
   font-style: italic;
   font-weight: 400;
 }
