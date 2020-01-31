@@ -2,4 +2,7 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Skinful"
+  description: |
+  Skinful is an all natural, skincare company that offers a wide range of skin care products for all ages and skin types
   font_url: "https://use.typekit.net/oll8jzi.css"
