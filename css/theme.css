@@ -1,7 +1,7 @@
 :root {
   --color-primary: #acc3c3;
   --color-secondary: #f0ddd3;
-  --color-accent: #d59d84;
+  --color-secondary-dark: #d59d84;
   --color-primary-dark: #767d91;
   --color-white: #fff;
   --color-black: #000;
@@ -29,7 +29,7 @@ h2 {
 
 h3 {
   font-family: var(--font-primary);
-  color: var(--color-purple);
+  color: var(--color-primary-dark);
   font-weight: 500;
   font-style: normal;
 }
@@ -57,7 +57,7 @@ h6 {
 
 ul {
   font-family: var(--font-secondary);
-  color: var(--color-purple);
+  color: var(--color-primary-dark);
   font-style: normal;
   font-weight: normal;
   list-style: none;
@@ -66,7 +66,7 @@ ul {
 
 ol{
   font-family: var(--font-secondary);
-  color: var(--color-accent);
+  color: var(--color-secondary-dark);
   font-style: normal;
   font-weight: normal;
   list-style: none;
@@ -75,7 +75,7 @@ ol{
 
 dl {
   font-family: var(--font-secondary);
-  color: var(--color-accent);
+  color: var(--color-secondary-dark);
   font-style: normal;
   font-weight: normal;
   list-style: none;
@@ -93,7 +93,7 @@ a {
 
 blockquote, q {
   font-family: var(--font-primary);
-  color: var(--color-accent);
+  color: var(--color-secondary-dark);
   font-style: italic;
   font-weight: 400;
 }
