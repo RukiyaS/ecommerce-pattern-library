@@ -1,0 +1,10 @@
+title: "Navigations"
+description: |
+  Navigations are used to easily switch between different pages.
+
+patterns:
+  nav:
+    title: "Main Navigations"
+    description: |
+      Main navigations that should be used on every web page.
+    height: "150px"

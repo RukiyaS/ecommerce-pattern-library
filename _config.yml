@@ -4,11 +4,11 @@ theme: jekyll_patternbot
 patternbot:
   title: "Skinful"
   description: |
-  Skinful is an all natural, skincare company that offers a wide range of skin care products for all ages and skin types
+    Skinful is an all natural, skincare company that offers a wide range of skin care products for all ages and skin types
   font_url: "https://use.typekit.net/oll8jzi.css"
   colors:
-    background: "--color-secondary: #f0ddd3;"
-    accent: "--color-primary-dark: #767d91;"
+    background: "#fff"
+    sidebar: --color-secondary
   rationales:
     typefaces.primary: |
       Proxima Nova was selection because it is a clean, simple sans-serif that perfectly matches the company's aesthetic.
@@ -21,4 +21,4 @@ patternbot:
     colors.white: |
       White is used on a coloured background. For example, text on an image banner, card, etc.
     colors.black: |
-     Black is used for regular body text.
+      Black is used for regular body text.

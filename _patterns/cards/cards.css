@@ -1,0 +1,18 @@
+.card-img {
+  position: relative;
+}
+
+.cta {
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  max-width: 200px;
+}
+
+.text {
+  color: #fff;
+}
+
+.card {
+  display: block;
+}

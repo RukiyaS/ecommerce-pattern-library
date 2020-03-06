@@ -16,13 +16,13 @@ html {
 h1 {
   font-family: var(--font-primary);
   font-weight: bold;
-  color: var(--color-black);
+  color: var(--color-white);
   font-style: normal;
 }
 
 h2 {
   font-family: var(--font-primary);
-  font-weight: lighter;
+  font-weight: 400;
   color: var(--color-primary);
   font-style: normal;
 }
@@ -105,8 +105,16 @@ cite {
   font-weight: normal;
 }
 
-em, strong, del, ins, abbr, dfn, i, b, mark, q, s, u {
+em, strong, del, ins, abbr, dfn, i, b, q, s, u {
   font-family: var(--font-primary);
+  color: var(--color-black);
+  font-style: normal;
+  font-weight: 400;
+}
+
+mark {
+  font-family: var(--font-primary);
+  background-color: var(--color-primary);
   color: var(--color-black);
   font-style: normal;
   font-weight: 400;

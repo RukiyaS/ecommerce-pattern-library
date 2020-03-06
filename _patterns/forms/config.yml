@@ -1,0 +1,37 @@
+title: "Forms"
+description: |
+  Forms are used to input information or text
+
+patterns:
+  text-field:
+    title: "Text Field"
+    description: |
+      Used to input long body of text such as comments or reviews.
+  required-text-inputs:
+      title: "Required Text Input"
+      description: |
+        Used for required text input such as name, address,etc.
+  text-inputs:
+      title: "Text Input"
+      description: |
+        Used for regular text input of forms.
+  radio:
+      title: "Radio Buttons"
+      description: |
+        Used for mutiple options.
+  required-checkbox:
+      title: "Required Checkbox"
+      description: |
+        Used for checkboxes that are required to be clicked in forms.
+  checkbox:
+      title: "Checkbox"
+      description: |
+        Used for checkboxes that are not required to be clicked in forms.
+  quantity-input:
+      title: "Quantity"
+      description: |
+        Used for item info page to determine how many items the customer wants to order.
+  email-inputs:
+      title: "Email"
+      description: |
+        Used for required email suchs as checkout and email signup.

@@ -1,0 +1,22 @@
+title: "Buttons"
+description: |
+  Buttons should be used where an action is required, primarly for call-to-actions.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using basic button. Should be used on lighter backgrounds.
+    width: "12em"
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is for banners
+    background: "--color-secondary"
+    width: "12em"
+  light:
+    title: "Light"
+    description: |
+      The light button is to be used on darker backgrounds.
+    background: "--color-primary"
+    width: "12em"
