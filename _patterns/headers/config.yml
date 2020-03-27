@@ -1,0 +1,13 @@
+title: "Headers"
+description: |
+  Headers are used to break up content.
+
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Clean, clean skin"
+      - name: text
+        type: string
+        example: "Treat your skin the way you would want to be treated"

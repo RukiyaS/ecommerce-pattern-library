@@ -1,0 +1,17 @@
+footer {
+  background: var(--color-white);
+}
+
+ul {
+  padding-left: 0;
+}
+
+.cr {
+  text-align: center;
+}
+
+
+.test {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

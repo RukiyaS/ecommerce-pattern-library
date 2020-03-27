@@ -22,3 +22,8 @@ patternbot:
       White is used on a coloured background. For example, text on an image banner, card, etc.
     colors.black: |
       Black is used for regular body text.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the header and footer.
+    product: |
+      The products list page showcases all the products that can be purchased.
