@@ -15,6 +15,13 @@ patterns:
     background: "--color-secondary"
     width: "12em"
   light:
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/"
     title: "Light"
     description: |
       The light button is to be used on darker backgrounds.

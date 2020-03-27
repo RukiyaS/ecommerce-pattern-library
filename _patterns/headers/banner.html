@@ -1,10 +1,12 @@
 <div class="hero-image">
 
-  <img class="img-flex" src="/images/banner.png" alt="">
+  <img class="img-flex" src="/images/{{include.src}}" alt="">
 
   <div class="hero-text">
     <h1 class="push-1-4">{{include.heading}}</h1>
     <p>{{include.text}}</p>
-    {% pattern buttons/light %}
+    {% if include.button_url %}
+      {% pattern buttons/light url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>

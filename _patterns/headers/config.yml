@@ -10,4 +10,12 @@ patterns:
         example: "Skinful"
       - name: text
         type: string
-        example: "Clean skincare for beautiful skin"
+        example: "Clean Skincare For Every Skin. High Quality. No-Animal Testing. 100% Vegan & Cruelty Free. Innovative Skincare."
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/shop/"
+        required: false
