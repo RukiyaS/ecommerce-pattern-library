@@ -7,7 +7,7 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "Clean, clean skin"
+        example: "Skinful"
       - name: text
         type: string
-        example: "Treat your skin the way you would want to be treated"
+        example: "Clean skincare for beautiful skin"
